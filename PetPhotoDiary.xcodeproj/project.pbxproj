@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4492996265B3E76005292E3 /* SoundRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4492995265B3E76005292E3 /* SoundRecViewController.swift */; };
+		F4492998265B45FF005292E3 /* SoundRecord.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4492997265B45FF005292E3 /* SoundRecord.gif */; };
+		F44929A2265B6FDB005292E3 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F449299B265B6FDB005292E3 /* bird.mp3 */; };
+		F44929A3265B6FDB005292E3 /* dog2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F449299C265B6FDB005292E3 /* dog2.mp3 */; };
+		F44929A4265B6FDB005292E3 /* cat2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F449299D265B6FDB005292E3 /* cat2.mp3 */; };
+		F44929A6265B6FDB005292E3 /* break.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F449299F265B6FDB005292E3 /* break.mp3 */; };
+		F44929A7265B6FDB005292E3 /* dog1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F44929A0265B6FDB005292E3 /* dog1.mp3 */; };
+		F44929AA265B6FE6005292E3 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F44929A8265B6FE6005292E3 /* whistle.mp3 */; };
+		F44929AB265B6FE6005292E3 /* toy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F44929A9265B6FE6005292E3 /* toy.mp3 */; };
+		F44929AD265B712F005292E3 /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44929AC265B712F005292E3 /* SoundListViewController.swift */; };
+		F44929AF265B7790005292E3 /* cat1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F44929AE265B7790005292E3 /* cat1.mp3 */; };
+		F44929B1265B81E7005292E3 /* SoundListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44929B0265B81E7005292E3 /* SoundListTableViewCell.swift */; };
+		F44929B6265BBB27005292E3 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44929B5265BBB27005292E3 /* ImageButton.swift */; };
+		F44929B9265BC1F1005292E3 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44929B8265BC1F1005292E3 /* GlobalData.swift */; };
+		F44929BB265BCCCB005292E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44929BA265BCCCB005292E3 /* Constants.swift */; };
+		F46219DB265F48CD00F653C6 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46219DA265F48CD00F653C6 /* DiaryTableViewCell.swift */; };
+		F46219DD265F49D100F653C6 /* DiaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46219DC265F49D100F653C6 /* DiaryListViewController.swift */; };
+		F4CFAD4526623F9F0041E33A /* PhotoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFAD4426623F9F0041E33A /* PhotoSelectViewController.swift */; };
+		F4CFAD47266242900041E33A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFAD46266242900041E33A /* PhotoCollectionViewCell.swift */; };
+		F4CFAD492662540F0041E33A /* DiaryInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFAD482662540F0041E33A /* DiaryInputViewController.swift */; };
+		F4E46F8A26561C6900670176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46F8926561C6900670176 /* AppDelegate.swift */; };
+		F4E46F8C26561C6900670176 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46F8B26561C6900670176 /* SceneDelegate.swift */; };
+		F4E46F8E26561C6900670176 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46F8D26561C6900670176 /* MainViewController.swift */; };
+		F4E46F9126561C6900670176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E46F8F26561C6900670176 /* Main.storyboard */; };
+		F4E46F9426561C6900670176 /* PetPhotoDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4E46F9226561C6900670176 /* PetPhotoDiary.xcdatamodeld */; };
+		F4E46F9626561C6A00670176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E46F9526561C6A00670176 /* Assets.xcassets */; };
+		F4E46F9926561C6A00670176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E46F9726561C6A00670176 /* LaunchScreen.storyboard */; };
+		F4E46FA126561D9400670176 /* SNSShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FA026561D9400670176 /* SNSShareViewController.swift */; };
+		F4E46FA826573FDB00670176 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FA326573FDB00670176 /* SwiftyCamViewControllerDelegate.swift */; };
+		F4E46FA926573FDB00670176 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FA426573FDB00670176 /* SwiftyCamButton.swift */; };
+		F4E46FAA26573FDB00670176 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FA526573FDB00670176 /* PreviewView.swift */; };
+		F4E46FAB26573FDB00670176 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FA626573FDB00670176 /* Orientation.swift */; };
+		F4E46FAC26573FDB00670176 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FA726573FDB00670176 /* SwiftyCamViewController.swift */; };
+		F4E46FB02657402F00670176 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FAD2657402E00670176 /* SwiftyRecordButton.swift */; };
+		F4E46FB12657402F00670176 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FAE2657402E00670176 /* VideoViewController.swift */; };
+		F4E46FB22657402F00670176 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FAF2657402F00670176 /* PhotoViewController.swift */; };
+		F4E46FB4265740DE00670176 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FB3265740DE00670176 /* CameraViewController.swift */; };
+		F4E46FB626576F5D00670176 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FB526576F5D00670176 /* AlbumListViewController.swift */; };
+		F4E46FC02657819E00670176 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E46FBF2657819E00670176 /* AlbumTableViewCell.swift */; };
+		F4E5E5F9265F59E500759224 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5E5F8265F59E500759224 /* DiaryViewController.swift */; };
+		F4F0740B265CCA2D00D3734A /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0740A265CCA2D00D3734A /* AlbumViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4492995265B3E76005292E3 /* SoundRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRecViewController.swift; sourceTree = "<group>"; };
+		F4492997265B45FF005292E3 /* SoundRecord.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SoundRecord.gif; sourceTree = "<group>"; };
+		F449299B265B6FDB005292E3 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
+		F449299C265B6FDB005292E3 /* dog2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog2.mp3; sourceTree = "<group>"; };
+		F449299D265B6FDB005292E3 /* cat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat2.mp3; sourceTree = "<group>"; };
+		F449299F265B6FDB005292E3 /* break.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = break.mp3; sourceTree = "<group>"; };
+		F44929A0265B6FDB005292E3 /* dog1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog1.mp3; sourceTree = "<group>"; };
+		F44929A8265B6FE6005292E3 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		F44929A9265B6FE6005292E3 /* toy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toy.mp3; sourceTree = "<group>"; };
+		F44929AC265B712F005292E3 /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
+		F44929AE265B7790005292E3 /* cat1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat1.mp3; sourceTree = "<group>"; };
+		F44929B0265B81E7005292E3 /* SoundListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListTableViewCell.swift; sourceTree = "<group>"; };
+		F44929B5265BBB27005292E3 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		F44929B8265BC1F1005292E3 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		F44929BA265BCCCB005292E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F46219DA265F48CD00F653C6 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		F46219DC265F49D100F653C6 /* DiaryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewController.swift; sourceTree = "<group>"; };
+		F4CFAD4426623F9F0041E33A /* PhotoSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectViewController.swift; sourceTree = "<group>"; };
+		F4CFAD46266242900041E33A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4CFAD482662540F0041E33A /* DiaryInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryInputViewController.swift; sourceTree = "<group>"; };
+		F4E46F8626561C6900670176 /* PetPhotoDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPhotoDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E46F8926561C6900670176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E46F8B26561C6900670176 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4E46F8D26561C6900670176 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4E46F9026561C6900670176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E46F9326561C6900670176 /* PetPhotoDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetPhotoDiary.xcdatamodel; sourceTree = "<group>"; };
+		F4E46F9526561C6A00670176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E46F9826561C6A00670176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E46F9A26561C6A00670176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E46FA026561D9400670176 /* SNSShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSShareViewController.swift; sourceTree = "<group>"; };
+		F4E46FA326573FDB00670176 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		F4E46FA426573FDB00670176 /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamButton.swift; sourceTree = "<group>"; };
+		F4E46FA526573FDB00670176 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		F4E46FA626573FDB00670176 /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		F4E46FA726573FDB00670176 /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		F4E46FAD2657402E00670176 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		F4E46FAE2657402E00670176 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F4E46FAF2657402F00670176 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		F4E46FB3265740DE00670176 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F4E46FB526576F5D00670176 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		F4E46FBF2657819E00670176 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		F4E5E5F8265F59E500759224 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		F4F0740A265CCA2D00D3734A /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E46F8326561C6900670176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4492999265B6FC0005292E3 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F44929AE265B7790005292E3 /* cat1.mp3 */,
+				F44929A9265B6FE6005292E3 /* toy.mp3 */,
+				F44929A8265B6FE6005292E3 /* whistle.mp3 */,
+				F449299B265B6FDB005292E3 /* bird.mp3 */,
+				F449299F265B6FDB005292E3 /* break.mp3 */,
+				F449299D265B6FDB005292E3 /* cat2.mp3 */,
+				F44929A0265B6FDB005292E3 /* dog1.mp3 */,
+				F449299C265B6FDB005292E3 /* dog2.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F44929B7265BC1BE005292E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F44929B8265BC1F1005292E3 /* GlobalData.swift */,
+				F44929BA265BCCCB005292E3 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4E46F7D26561C6900670176 = {
+			isa = PBXGroup;
+			children = (
+				F4E46F8826561C6900670176 /* PetPhotoDiary */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E46F8726561C6900670176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E46F8626561C6900670176 /* PetPhotoDiary.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F4E46F8826561C6900670176 /* PetPhotoDiary */ = {
+			isa = PBXGroup;
+			children = (
+				F44929B7265BC1BE005292E3 /* Model */,
+				F4492999265B6FC0005292E3 /* Sound */,
+				F4E46FA226573E1A00670176 /* Camera */,
+				F4E46F8926561C6900670176 /* AppDelegate.swift */,
+				F4E46F8B26561C6900670176 /* SceneDelegate.swift */,
+				F4E46F8D26561C6900670176 /* MainViewController.swift */,
+				F4E46FA026561D9400670176 /* SNSShareViewController.swift */,
+				F4E46FAF2657402F00670176 /* PhotoViewController.swift */,
+				F4E46FAD2657402E00670176 /* SwiftyRecordButton.swift */,
+				F4E46FAE2657402E00670176 /* VideoViewController.swift */,
+				F4E46FB3265740DE00670176 /* CameraViewController.swift */,
+				F4E46FBF2657819E00670176 /* AlbumTableViewCell.swift */,
+				F4E46FB526576F5D00670176 /* AlbumListViewController.swift */,
+				F4F0740A265CCA2D00D3734A /* AlbumViewController.swift */,
+				F4492995265B3E76005292E3 /* SoundRecViewController.swift */,
+				F44929AC265B712F005292E3 /* SoundListViewController.swift */,
+				F44929B0265B81E7005292E3 /* SoundListTableViewCell.swift */,
+				F4E5E5F8265F59E500759224 /* DiaryViewController.swift */,
+				F46219DC265F49D100F653C6 /* DiaryListViewController.swift */,
+				F46219DA265F48CD00F653C6 /* DiaryTableViewCell.swift */,
+				F4CFAD4426623F9F0041E33A /* PhotoSelectViewController.swift */,
+				F4CFAD46266242900041E33A /* PhotoCollectionViewCell.swift */,
+				F4CFAD482662540F0041E33A /* DiaryInputViewController.swift */,
+				F4E46F8F26561C6900670176 /* Main.storyboard */,
+				F4E46F8726561C6900670176 /* Products */,
+				F4E46F9526561C6A00670176 /* Assets.xcassets */,
+				F4E46F9726561C6A00670176 /* LaunchScreen.storyboard */,
+				F4E46F9A26561C6A00670176 /* Info.plist */,
+				F4E46F9226561C6900670176 /* PetPhotoDiary.xcdatamodeld */,
+				F4492997265B45FF005292E3 /* SoundRecord.gif */,
+				F44929B5265BBB27005292E3 /* ImageButton.swift */,
+			);
+			path = PetPhotoDiary;
+			sourceTree = "<group>";
+		};
+		F4E46FA226573E1A00670176 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				F4E46FA626573FDB00670176 /* Orientation.swift */,
+				F4E46FA526573FDB00670176 /* PreviewView.swift */,
+				F4E46FA426573FDB00670176 /* SwiftyCamButton.swift */,
+				F4E46FA726573FDB00670176 /* SwiftyCamViewController.swift */,
+				F4E46FA326573FDB00670176 /* SwiftyCamViewControllerDelegate.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E46F8526561C6900670176 /* PetPhotoDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E46F9D26561C6A00670176 /* Build configuration list for PBXNativeTarget "PetPhotoDiary" */;
+			buildPhases = (
+				F4E46F8226561C6900670176 /* Sources */,
+				F4E46F8326561C6900670176 /* Frameworks */,
+				F4E46F8426561C6900670176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPhotoDiary;
+			productName = PetPhotoDiary;
+			productReference = F4E46F8626561C6900670176 /* PetPhotoDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E46F7E26561C6900670176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F4E46F8526561C6900670176 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F4E46F8126561C6900670176 /* Build configuration list for PBXProject "PetPhotoDiary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E46F7D26561C6900670176;
+			productRefGroup = F4E46F8726561C6900670176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E46F8526561C6900670176 /* PetPhotoDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E46F8426561C6900670176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44929A3265B6FDB005292E3 /* dog2.mp3 in Resources */,
+				F44929AB265B6FE6005292E3 /* toy.mp3 in Resources */,
+				F44929A2265B6FDB005292E3 /* bird.mp3 in Resources */,
+				F4E46F9926561C6A00670176 /* LaunchScreen.storyboard in Resources */,
+				F4E46F9626561C6A00670176 /* Assets.xcassets in Resources */,
+				F4492998265B45FF005292E3 /* SoundRecord.gif in Resources */,
+				F4E46F9126561C6900670176 /* Main.storyboard in Resources */,
+				F44929AA265B6FE6005292E3 /* whistle.mp3 in Resources */,
+				F44929A4265B6FDB005292E3 /* cat2.mp3 in Resources */,
+				F44929A7265B6FDB005292E3 /* dog1.mp3 in Resources */,
+				F44929A6265B6FDB005292E3 /* break.mp3 in Resources */,
+				F44929AF265B7790005292E3 /* cat1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E46F8226561C6900670176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E46F8E26561C6900670176 /* MainViewController.swift in Sources */,
+				F44929BB265BCCCB005292E3 /* Constants.swift in Sources */,
+				F4F0740B265CCA2D00D3734A /* AlbumViewController.swift in Sources */,
+				F4E46FAA26573FDB00670176 /* PreviewView.swift in Sources */,
+				F4E46FB12657402F00670176 /* VideoViewController.swift in Sources */,
+				F4CFAD4526623F9F0041E33A /* PhotoSelectViewController.swift in Sources */,
+				F4E46FAC26573FDB00670176 /* SwiftyCamViewController.swift in Sources */,
+				F4E46FA826573FDB00670176 /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				F4E46F8A26561C6900670176 /* AppDelegate.swift in Sources */,
+				F46219DD265F49D100F653C6 /* DiaryListViewController.swift in Sources */,
+				F4E46F9426561C6900670176 /* PetPhotoDiary.xcdatamodeld in Sources */,
+				F44929B6265BBB27005292E3 /* ImageButton.swift in Sources */,
+				F44929B1265B81E7005292E3 /* SoundListTableViewCell.swift in Sources */,
+				F4E46FC02657819E00670176 /* AlbumTableViewCell.swift in Sources */,
+				F4492996265B3E76005292E3 /* SoundRecViewController.swift in Sources */,
+				F4E46FA926573FDB00670176 /* SwiftyCamButton.swift in Sources */,
+				F4E46FA126561D9400670176 /* SNSShareViewController.swift in Sources */,
+				F46219DB265F48CD00F653C6 /* DiaryTableViewCell.swift in Sources */,
+				F4E46FAB26573FDB00670176 /* Orientation.swift in Sources */,
+				F4E46FB02657402F00670176 /* SwiftyRecordButton.swift in Sources */,
+				F4E46FB4265740DE00670176 /* CameraViewController.swift in Sources */,
+				F4E46F8C26561C6900670176 /* SceneDelegate.swift in Sources */,
+				F4E46FB626576F5D00670176 /* AlbumListViewController.swift in Sources */,
+				F4E5E5F9265F59E500759224 /* DiaryViewController.swift in Sources */,
+				F44929B9265BC1F1005292E3 /* GlobalData.swift in Sources */,
+				F4CFAD47266242900041E33A /* PhotoCollectionViewCell.swift in Sources */,
+				F4CFAD492662540F0041E33A /* DiaryInputViewController.swift in Sources */,
+				F44929AD265B712F005292E3 /* SoundListViewController.swift in Sources */,
+				F4E46FB22657402F00670176 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4E46F8F26561C6900670176 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E46F9026561C6900670176 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E46F9726561C6A00670176 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E46F9826561C6A00670176 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E46F9B26561C6A00670176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E46F9C26561C6A00670176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E46F9E26561C6A00670176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7ZDVPAZ3R;
+				INFOPLIST_FILE = PetPhotoDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunaahn.PetPhotoDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4E46F9F26561C6A00670176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7ZDVPAZ3R;
+				INFOPLIST_FILE = PetPhotoDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunaahn.PetPhotoDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E46F8126561C6900670176 /* Build configuration list for PBXProject "PetPhotoDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E46F9B26561C6A00670176 /* Debug */,
+				F4E46F9C26561C6A00670176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E46F9D26561C6A00670176 /* Build configuration list for PBXNativeTarget "PetPhotoDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E46F9E26561C6A00670176 /* Debug */,
+				F4E46F9F26561C6A00670176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4E46F9226561C6900670176 /* PetPhotoDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4E46F9326561C6900670176 /* PetPhotoDiary.xcdatamodel */,
+			);
+			currentVersion = F4E46F9326561C6900670176 /* PetPhotoDiary.xcdatamodel */;
+			path = PetPhotoDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4E46F7E26561C6900670176 /* Project object */;
+}
