@@ -41,7 +41,7 @@ CoreData라는 iOS 플랫폼 단에서 지원하는 관계형 데이터베이스
 일기장 화면의 정렬 순서는 코어 데이터에 있는 id속성의 순서대로 정렬하였고, 
 현재 저장된 일기의 개수를 세어 그 개수만큼 셀을 만들어 일기들을 리스트에 보여주도록 하였습니다.
 
-<img width="450" alt="데이터모델링" src="https://user-images.githubusercontent.com/81062538/130538204-332be06a-f939-4a2b-885e-abf154ac2884.png">
+<img width="600" alt="데이터모델링" src="https://user-images.githubusercontent.com/81062538/130538204-332be06a-f939-4a2b-885e-abf154ac2884.png">
 
 
 ## 검색기능
